@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="js/phones.js"></script>
+  <script src="js/get-objects.js"></script>
+</head>
+<body>
+  <button onclick="addNewPhone()">Novo Telefone</button>
+  <button onclick="printPhones()">Imprimir Telefones</button>
+  <br />
+  <form id="phones">
+    <p>
+      <label for="phone01">Telefone 1</label>
+      <input type="text" name="phone">
+    </p>
+  </form>
+
+
+  <form action="">
+    <p>
+      <label for="firstName">Nome:</label>
+      <input type="text" name="first-name" onchange="sayMyFirstName(this)">
+    </p>
+    <p>
+      <label for="lastName">Sobrenome:</label>
+      <input type="text" name="last-name" onchange="sayMyLastName()">
+    </p>
+  </form>
+</body>
+</html>
